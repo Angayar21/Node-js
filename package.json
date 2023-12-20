@@ -1,14 +1,17 @@
 {
-  "name": "basic",
+  "name": "express",
   "version": "1.0.0",
-  "description": "my first node server",
-  "main": "firstServer.js",
+  "description": "my first express js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon firstServer.js"
+    "start":"nodemon app.js"
   },
-  "author": "Angai",
+  "author": "myself",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
